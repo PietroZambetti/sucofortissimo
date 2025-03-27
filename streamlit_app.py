@@ -7,3 +7,8 @@ st.write(
 
 
 value = st.slider('Select a value', 0, 100, 30)
+st.write('You selected:', value )
+
+button_pressed = st.button('Push me for Sport List')
+if button_pressed:
+    st.write('Sport List')
